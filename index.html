@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header>
+      <div id="test"></div>
+      <form id="form">
+        <label for="search">Write the word in English</label>
+        <div class="input-box">
+          <input
+            id="search"
+            type="text"
+            require
+            autocomplete="off"
+            name="searchInput"
+            value=""
+          />
+          <button type="submit">Search</button>
+        </div>
+      </form>
+    </header>
+    <div class="error-block">There is no such word</div>
+    <ul class="results">
+      <li class="item">Make a request and the result will appear here</li>
+    </ul>
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>

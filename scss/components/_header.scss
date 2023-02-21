@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,700);
+html {
+  font-size: 20px;
+  @media screen and (max-width: 700px) {
+    font-size: 14px;
+  }
+}
+body {
+  padding: 40px;
+  font-family: Roboto, sans-serif;
+}
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+label {
+  display: block;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.input-box {
+  display: flex;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+button[type='submit'] {
+  cursor: pointer;
+}
